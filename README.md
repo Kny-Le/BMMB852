@@ -7,7 +7,6 @@
 
 ### Commands
 
-```bash
 mkdir -p ~/assignment1
 cd ~/assignment1
 touch README.md
