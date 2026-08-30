@@ -88,14 +88,14 @@ cd raw
 cd ../..
 ```
 
-## accessing files using absolute paths
+## Accessing files using absolute paths
 
-### move up directories
+### Move up directories
    
 ```bash
 cd ../../../..
 ```
-### absolute path
+### Absolute path
 
 '''bash
 cat /Users/kenny/BMMB852/assignment1/README.md/data/raw/input.txt
@@ -104,7 +104,7 @@ cat /Users/kenny/BMMB852/assignment1/README.md/scripts/analyze.sh
 ```
 
 ### check location
-   
+
 ```bash
 pwd
 ```
