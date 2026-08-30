@@ -88,7 +88,7 @@ cd raw
 cd ../..
 ```
 
-##accessing files using absolute paths
+## accessing files using absolute paths
 
 ### move up directories
    
