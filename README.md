@@ -57,19 +57,19 @@ echo "results" > results/output.txt
 echo '#!bin/bash' > scripts/analyze.sh
 ```
 
-### verify
+### Verify files
 
 ```bash
 find . -type f
 ```
 
-## accessing these files using relative paths
+## Accessing these files using relative paths
 
 ```bash
 cd ~/assignment1
 ```
    
-### these are relative since they start from my current directory; assignment 1
+### These are relative since they start from my current directory; assignment 1
 
 ```bash
 cat data/raw/input.txt
