@@ -8,7 +8,7 @@
 conda activate bioinfo
 samtools --version
 ```
-Output
+Output:
 
 kenny@MacBook-Pro ~/BMMB852/assignment1/README.md
 $ samtools --version
@@ -62,6 +62,15 @@ echo '#!bin/bash' > scripts/analyze.sh
 ```bash
 find . -type f
 ```
+
+Output:
+kenny@MacBook-Pro ~/BMMB852/assignment1/README.md
+$ find . -type f
+./README.md
+./results/output.txt
+./scripts/analyze.sh
+./README.txt
+
 
 ## Accessing these files using relative paths
 
