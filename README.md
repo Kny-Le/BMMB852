@@ -2,19 +2,22 @@
 
 ## Samtools versions
 
+### Commands
+
 ```bash
 conda activate bioinfo
 samtools --version
 ```
+Output
 
 kenny@MacBook-Pro ~/BMMB852/assignment1/README.md
 $ samtools --version
 samtools 1.24
 Using htslib 1.24
 
-## nested directory
+## Nested Directory
 
-### check where you are
+Check where you are
 
 ```bash
 ls
@@ -25,7 +28,7 @@ ls
 ```bash
 mkdir BMMB852
 ```
-### directory in a directory (nested)
+### Directory in a directory (nested)
 
 ```bash
 cd BMMB852
@@ -46,7 +49,7 @@ touch results/output.txt
 touch scriptsanalyze.sh
 ```
    
-### create files with content
+### Commands to create files with content
 
 ```bash
 echo "input data" > data/raw/input.txt
@@ -74,12 +77,12 @@ cat results/output.txt
 cat scripts/analyze.sh
 ```
 
-###confirm where you are
+Confirm where you are
 
 ```bash
 pwd
 ```
-###move between directories using relative paths (data for example)
+Move between directories using relative paths (data for example)
 
 ```bash
 cd data
@@ -90,7 +93,7 @@ cd ../..
 
 ## Accessing files using absolute paths
 
-### Move up directories
+Move up directories
    
 ```bash
 cd ../../../..
@@ -103,7 +106,7 @@ cat /Users/kenny/BMMB852/assignment1/README.md/results/output.txt
 cat /Users/kenny/BMMB852/assignment1/README.md/scripts/analyze.sh
 ```
 
-### check location
+Check location
 
 ```bash
 pwd
