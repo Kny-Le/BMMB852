@@ -1,5 +1,7 @@
 # BMMB852 Assignment 1
 
+I used VSC code
+
 ## Samtools versions
 
 ### Commands
