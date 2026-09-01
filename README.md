@@ -8,7 +8,7 @@
 conda activate bioinfo
 samtools --version
 ```
-Output:
+#### Output:
 
 kenny@MacBook-Pro ~/BMMB852/assignment1/README.md
 $ samtools --version
@@ -96,7 +96,11 @@ Move between directories using relative paths (data for example)
 ```bash
 cd data
 cd raw
+```
+
 #### go back to README.md
+
+```bash
 cd ../..
 ```
 
